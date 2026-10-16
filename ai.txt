@@ -1,0 +1,129 @@
+\documentclass[11pt,a4paper]{ctexart}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=1.6em, itemsep=2pt, topsep=2pt}
+\setlist[enumerate]{leftmargin=1.8em, itemsep=2pt, topsep=2pt}
+\definecolor{mainblue}{HTML}{1F4E79}
+\definecolor{deepgray}{HTML}{333333}
+\newcommand{\sectiontitle}[1]{\noindent{\Large\bfseries\color{mainblue}#1}\vspace{0.4em}\hrule\vspace{0.6em}}
+
+\begin{document}
+
+\noindent
+\begin{minipage}[t]{0.72\textwidth}
+\vspace{0pt}
+{\Huge\bfseries\color{mainblue} 王世鑫} \\
+\vspace{0.4em}
+\begin{tabular}{@{}ll}
+\textbf{出生年月：} 1995.04 & \textbf{籍贯：} 河南 \\
+\textbf{毕业学校：} 中国人民大学 & \textbf{学历：} 博士 \\
+\textbf{性别：} 男 & \textbf{电话：} 18810196936 \\
+\textbf{邮箱：} wangshixin@ruc.edu.cn & \textbf{求职方向：} 数据科学 / 人工智能
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.18\textwidth}
+\vspace{0pt}
+\centering
+\includegraphics[width=2.2cm]{照片.jpg}
+\end{minipage}
+
+\vspace{1.0em}
+
+\sectiontitle{求职意向}
+\noindent
+面向人工智能、计算机视觉、智能信息处理相关岗位，长期关注前沿技术研究与工程落地，致力于利用数据驱动与智能算法提升产品能力与科研创新水平。
+
+\sectiontitle{擅长技能}
+\begin{itemize}
+  \item 熟练使用python，掌握linux环境, git版本控制
+  \item 熟悉深度学习、强化学习模型方法；了解大模型算法
+\end{itemize}
+
+\sectiontitle{学习经历}
+\noindent
+\textbf{博士} \quad 中国人民大学 \hfill 2023.09 -- 2028.06 \\
+\textit{专业：} 计算机科学与技术 \\
+\textit{研究方向：} 人工智能、计算机视觉与模式识别 \\
+\textit{研究成果：} 参与国家自然科学基金项目，负责模型设计与实验验证，发表论文 X 篇。
+
+\vspace{0.6em}
+\noindent
+\textbf{硕士} \quad 中国科学院大学 \hfill 2019.09 -- 2022.06 \\
+\textit{专业：} 计算机科学与技术 \\
+\textit{研究方向：} 机器学习与智能信息处理 \\
+\textit{主要成果：} 研究生期间参与多项科研项目，累计发表学术论文 2 篇，获研究生奖学金。
+
+\vspace{0.6em}
+\noindent
+\textbf{本科} \quad 上海大学 \hfill 2015.09 -- 2019.06 \\
+\textit{专业：} 计算机科学与技术 \\
+\textit{相关课程：} 数据结构、操作系统、数据库、计算机网络、人工智能基础、软件工程等。
+
+\sectiontitle{实习经历}
+\noindent
+\textbf{XX科技有限公司} \quad \textit{算法研发实习生} \hfill 2022.07 -- 2023.03 \\
+\begin{itemize}
+  \item 参与公司智能推荐与图像识别相关项目开发，负责数据清洗、模型训练与实验调优；
+  \item 使用 Python 进行数据分析与特征工程，提升模型预测效果约 8\%；
+  \item 配合研发工程师完成算法模块集成与线上测试，保障模型稳定运行；
+  \item 参与项目评审与技术文档编写，提升团队协作效率。
+\end{itemize}
+
+\noindent
+\textbf{YYY信息技术公司} \quad \textit{研究与开发实习生} \hfill 2021.06 -- 2021.12 \\
+\begin{itemize}
+  \item 参与智能问答系统的原型开发，负责自然语言处理模块和接口对接；
+  \item 协助搭建实验平台，利用真实数据开展模型对比分析，支持方案选型；
+  \item 参与需求沟通、方案设计与代码评审，提升开发效率与代码质量。
+\end{itemize}
+
+\sectiontitle{科研经历}
+\noindent
+\textbf{国家自然科学基金项目} \quad \textit{项目负责人/核心成员} \hfill 2023.01 -- 2025.12 \\
+\begin{itemize}
+  \item 负责研究方案设计与实验计划制定，推进目标任务开展；
+  \item 参与模型算法研究与优化，探索适用于复杂场景的高性能方法；
+  \item 负责实验数据整理、结果分析与论文撰写，为项目成果输出提供支撑。
+\end{itemize}
+
+\noindent
+\textbf{面向复杂场景的智能识别算法研究} \hfill 2020.09 -- 2022.06 \\
+\begin{itemize}
+  \item 针对数据分布不平衡和样本稀缺问题，提出改进型模型训练策略；
+  \item 设计并实现模型训练、评估和可视化流程，完成实验验证与性能对比；
+  \item 结果表明方法在多个基准任务上显著提升准确率与稳定性。
+\end{itemize}
+
+\sectiontitle{工作经历}
+\noindent
+\textbf{XX研究院} \quad \textit{研究助理/算法工程师} \hfill 2023.04 -- 2024.12 \\
+\begin{itemize}
+  \item 负责相关研究课题的数据采集、清洗和模型训练；
+  \item 配合团队开展算法迭代与实验优化，持续提升模型表现；
+  \item 参与技术汇报和成果总结，协助形成研究结论与技术文档。
+\end{itemize}
+
+\noindent
+\textbf{某高校实验室} \quad \textit{研究生助教/研究助理} \hfill 2020.09 -- 2022.06 \\
+\begin{itemize}
+  \item 负责实验室课程辅助教学、数据处理与实验环境维护；
+  \item 协助指导本科生完成相关课程实验与项目实践；
+  \item 参与实验室管理与科研活动组织，提升团队协作氛围。
+\end{itemize}
+
+\sectiontitle{发表文章}
+\begin{enumerate}
+  \item \textbf{张三，李四，王五.} \textit{题目名称}. 期刊/会议名称，年份，卷号，页码；
+  \item \textbf{张三，王五.} \textit{题目名称}. 期刊/会议名称，年份，卷号，页码；
+  \item \textbf{张三，李四.} \textit{题目名称}. 期刊/会议名称，年份，卷号，页码。
+\end{enumerate}
+
+\end{document}
+
